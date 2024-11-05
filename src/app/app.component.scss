@@ -1,0 +1,26 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header :is(h1) {
+  font-size: 3em;
+}
+
+.header {
+  background-color: var(--sys-surface);
+  min-height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section.content {
+  background-color: var(--sys-surface-bright);
+  color: var(--sys-surface-tint);
+  flex: 1;
+  padding: 1rem;
+}
+
+
